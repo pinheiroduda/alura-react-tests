@@ -14,4 +14,10 @@ describe('Componente principal', () => {
     
     expect(screen.getByText('Saldo:')).toBeInTheDocument()
   })
+
+  it('Quando eu abro o app do banco, o botão de transação é exibido', () => {
+    render(<App />)
+    
+    expect(screen.getByText('Realizar operação')).toBeInTheDocument()
+  })
 })
