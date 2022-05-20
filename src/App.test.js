@@ -3,9 +3,15 @@ import { render, screen } from "@testing-library/react"
 import App from "./App"
 
 describe('Componente principal', () => {
-  it('Mostrar o nome do banco', () => {
+  it('Quando eu abro o app do banco, o nome é exibido', () => {
     render(<App />);
 
     expect(screen.getByText('ByteBank')).toBeInTheDocument()
+  })
+
+  it('Quando eu abro o app do banco, o saldo é exibido', () => {
+    render(<App />)
+    
+    expect(screen.getByText('Saldo:')).toBeInTheDocument()
   })
 })
