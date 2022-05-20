@@ -14,6 +14,42 @@
       "valor": "20",
       "data": "26/09/2020",
       "id": 2
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "20/05/2022",
+      "id": 3
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "20/05/2022",
+      "id": 4
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "20/05/2022",
+      "id": 5
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "20/05/2022",
+      "id": 6
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "20/05/2022",
+      "id": 7
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "20/05/2022",
+      "id": 8
     }
   ]
 }
